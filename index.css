@@ -1,0 +1,77 @@
+body {
+  background-color: #151515 !important;
+  font-family: 'Proza Libre', sans-serif !important;
+}
+
+section {
+  min-height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row-w {
+  width: 100%;
+}
+
+.muted {
+  color:#C8C8C8 !important;
+}
+
+.fs-xsm {
+  font-size: 0.618rem;
+}
+
+.fs-sm {
+  font-size: 1rem;
+}
+
+.fs-md {
+  font-size:1.618rem;
+}
+
+.footer-line {
+  width: 1px;
+  height: 5rem;
+  background: linear-gradient(-45deg, #ee7752, #ffaecd, #69d8ff, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+.text{
+  color:#E8DFDF;
+}
+
+.link {
+  color:#e5dadb;
+  text-decoration: none;
+}
+
+.link:hover {
+  color:#cfbec1;
+  text-decoration: none;
+}
+
+.test {
+
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
