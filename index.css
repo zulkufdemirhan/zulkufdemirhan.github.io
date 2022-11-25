@@ -4,7 +4,7 @@ body {
 }
 
 section {
-  min-height: 30rem;
+  min-height: 25rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
