@@ -1,9 +1,13 @@
 body {
-  background-color: #151515 !important;
+  background-color: #212121 !important;
   font-family: 'Proza Libre', sans-serif !important;
 }
 
-section {
+.logo{
+  width: 3rem !important;
+}
+
+.homepage-section {
   min-height: 25rem;
   display: flex;
   flex-direction: column;
@@ -11,7 +15,11 @@ section {
   align-items: center;
 }
 
-article {
+.section-mt{
+  margin-top: 10rem;
+}
+
+.homepage-article {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,11 +30,15 @@ article {
 }
 
 .muted {
-  color:#C8C8C8 !important;
+  color:#a9a9a9 !important;
 }
 
 .fs-xsm {
   font-size: 0.618rem;
+}
+
+.fs-ms{
+  font-size: 0.85rem;
 }
 
 .fs-sm {
@@ -46,22 +58,21 @@ article {
 }
 
 .text{
-  color:#E8DFDF;
+  color:#eee;
 }
 
 .link {
-  color:#e5dadb;
+  color:#a9a9a9;
   text-decoration: none;
 }
 
 .link:hover {
-  color:#cfbec1;
+  color:#fff;
   text-decoration: none;
 }
 
-.test {
-
-	height: 100vh;
+.nav-dark{
+  background-color: #191919 !important;
 }
 
 @keyframes gradient {
@@ -74,4 +85,57 @@ article {
 	100% {
 		background-position: 0% 50%;
 	}
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+.card{
+  border-color: #151515 !important;
+}
+
+.card:hover{
+  opacity: 0.94;
+  transition: ease-in;
+}
+.card-body {
+  background-color: #151515;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.nav-link{
+  color:#a9a9a9 !important;
+}
+
+.nav-link:hover{
+  color:#fff !important;
+  transition: ease-in;
+}
+
+.portfolio-img{
+  width: 100% !important;
+}
+
+.scroll-link{
+  width: 8rem;
+}
+
+.role{
+  width: 11rem;
+}
+
+.technology{
+  width: 10rem;
+}
+
+.blog-cover{
+  height: 20.5rem;
+}
+
+.blog-p{
+  padding-bottom: 23px;
 }

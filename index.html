@@ -10,39 +10,92 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Proza+Libre&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link rel="icon" type="image/x-icon" href="./icon-tab.png">
+  <link rel="icon" type="image/x-icon" href="./images/icon-tab.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Zulkuf Demirhan - Frontend Developer</title>
 </head>
 <body>
 
-  <nav class="navbar container" data-aos="fade" data-aos-duration="3000" data-aos-anchor=".other-element">
-    <a class="navbar-brand" href="https://www.linkedin.com/in/zulkuf-demirhan/">
-      <img src="./logo.png" alt="Zülküf Demirhan Portfolio Page"/>
-    </a>
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+  <label id="scrollTop"></label>
+  </div>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top nav-dark" data-aos="fade-down" data-aos-duration="1000" data-aos-anchor=".other-element">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="https://www.linkedin.com/in/zulkuf-demirhan/">
+        <img src="./images/logo.png" class="logo" alt="Zülküf Demirhan Portfolio Page"/>
+      </a>
+      <nav class="nav nav-masthead justify-content-center float-md-end">
+        <a class="nav-link" aria-current="page" href="./index.html">Projects</a>
+        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="#">Contact</a>
+      </nav>
+    </div>
   </nav>
 
-  <section class="container" data-aos="fade-down" data-aos-duration="1000" data-aos-anchor=".other-element">
-    <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+  <section class="container homepage-section section-mt" data-aos="fade-down" data-aos-duration="1000" data-aos-anchor=".other-element">
+    <article class="col-12 col-sm-12 col-md-12 col-lg-6 homepage-article">
       <p class="muted fs-xsm">Hello, I’m Zulkuf</p>
       <p class="text fs-md text-center mb-0">Front-end Developer & UI/UX Designer</p>
       <p class="text fs-md text-center">who cares deeply about user experience. Serious passion for UI design and new technologies.</p>
     </article>
-    <div class="row-w">
-      <div class="d-flex justify-content-center mt-5">
-        <div class="col-10 col-sm-10 col-md-5 col-lg-5 col-xl-3">
-          <div class=" d-flex justify-content-between">
-            <a href="https://www.linkedin.com/in/zulkuf-demirhan/" class="link">LinkedIn</a>
-            <a href="mailto:z.demirhan95@gmail.com" class="link">Email</a>
-            <a href="https://github.com/zulkufdemirhan" class="link">Github</a>
-            <a href="https://dribbble.com/zulkufdemirhan" class="link">Dribbble</a>
+    <div class="container d-flex justify-content-center align-items-center">
+      <div class="row-w">
+        <div class="d-flex justify-content-center">
+          <div class="col-10 col-sm-10 col-md-5 col-lg-5 col-xl-3">
+            <div class=" d-flex justify-content-between">
+              <a href="https://www.linkedin.com/in/zulkuf-demirhan/" class="link">LinkedIn</a>
+              <a href="mailto:z.demirhan95@gmail.com" class="link">Email</a>
+              <a href="https://github.com/zulkufdemirhan" class="link">Github</a>
+              <a href="https://dribbble.com/zulkufdemirhan" class="link">Dribbble</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container d-flex justify-content-center align-items-center py-4 my-4 ">
+      <div class="footer-line"></div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-10">
+        <div class="d-flex flex-wrap justify-content-between">
+          <div class="col-12 col-lg-6 px-0 px-lg-2 pb-4 ">
+            <div class="card">
+              <a href="./logistics/huns_logistics_operation.html">
+                <img src="./logistics/portfolio-logistics-main.jpg" class="card-img-top" alt="Logistics Operation Portfolio Cover">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title text">Huns Logistics Operation</h5>
+                <p class="card-text muted text-justify">Huns provides seamless and bespoke logistics and transport management solutions for the unique needs of businesses with flat and affordable pricing model</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 px-0 px-lg-2 pb-4 ">
+            <div class="card">
+              <a href="./blog/blog.html">
+                <img src="./blog/Screenshot 2022-12-13 at 21.14.39.png" class="card-img-top blog-cover" alt="Blog App Portfolio Cover">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title text">Huns Blog App</h5>
+                <p class="card-text muted blog-p">Huns is a "blog application" where people write and share their knowledge, experience and skills.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <footer class="container d-flex justify-content-center align-items-center py-3 my-4 ">
-    <div class="footer-line" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor=".other-element"></div>
+  <footer class="container d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor=".other-element">
+    <div class="row-w">
+      <div class="col-12 my-4">
+        <div class="d-flex justify-content-center my-5">
+          <div class="scroll-link" id="navbar-example2">
+            <a href="#scrollTop" class="link"><i class="fa-regular fa-circle-up fs-sm"></i><span class="ms-2">Scroll to Top</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
   </footer>
 
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
