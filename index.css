@@ -92,13 +92,10 @@ body {
 }
 
 .card{
-  border-color: #151515 !important;
+  border: none !important;
+  background-color: #151515 !important;
 }
 
-.card:hover{
-  opacity: 0.94;
-  transition: ease-in;
-}
 .card-body {
   background-color: #151515;
 }
@@ -130,4 +127,13 @@ a{
 
 .technology{
   width: 10rem;
+}
+
+img{
+  transition: all 0.5s;
+}
+
+.card:hover img {
+  transform: scale(0.97);
+  opacity: 0.92;
 }
