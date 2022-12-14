@@ -1,1 +1,0 @@
-# zulkufdemirhan.github.io
