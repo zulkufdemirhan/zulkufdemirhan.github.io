@@ -1,6 +1,17 @@
 * {
   cursor: none;
 }
+@media (max-width: 810px) { 
+  * {
+    cursor:auto;
+  }
+  .cursor{
+    display: none;
+  }
+  .link, .nav-link, .logo{
+    cursor: pointer;
+  }
+}
 .cursor {
     --size: 8px;
     height: var(--size);
@@ -21,7 +32,7 @@
     transition-timing-function: ease-out;
 }
 .cursor.cursor-dot {
-    background: #7f6ed2;
+    background: #DE8250;
     transition: width .2s, height .2s;
 }
 .cursor-shadow.active {
