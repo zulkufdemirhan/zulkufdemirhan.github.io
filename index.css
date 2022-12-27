@@ -63,6 +63,15 @@ body {
   width: 3.5rem !important;
 }
 
+.nav-link{
+  color:#a9a9a9 !important;
+}
+
+.nav-link:hover{
+  color:#fff !important;
+  transition: ease-in;
+}
+
 .homepage-section {
   min-height: 25rem;
   display: flex;
@@ -161,13 +170,13 @@ a{
   text-decoration: none !important;
 }
 
-.nav-link{
-  color:#a9a9a9 !important;
+img{
+  transition: all 0.5s;
 }
 
-.nav-link:hover{
-  color:#fff !important;
-  transition: ease-in;
+.card:hover img {
+  transform: scale(0.97);
+  opacity: 0.92;
 }
 
 .portfolio-img{
@@ -178,24 +187,19 @@ a{
   width: 8rem;
 }
 
-.role{
-  width: 11rem;
-}
-
-.technology{
-  width: 12rem;
-}
-
-img{
-  transition: all 0.5s;
-}
-
-.card:hover img {
-  transform: scale(0.97);
-  opacity: 0.92;
-}
-
 .about-img-top{
   border-top-left-radius: 0 !important;
   border-top-right-radius: 0 !important;
+}
+
+@media (max-width: 991px) {
+  .duration{
+    text-align: center;
+  }
+  .role{
+    text-align: center;
+  }
+  .technology{
+    text-align: center;
+  }
 }
