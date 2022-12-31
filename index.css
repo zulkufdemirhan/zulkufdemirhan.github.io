@@ -32,7 +32,7 @@
     transition-timing-function: ease-out;
 }
 .cursor.cursor-dot {
-    background: #DE8250;
+    background: #ff7f37;
     transition: width .2s, height .2s;
 }
 .cursor-shadow.active {
@@ -118,13 +118,19 @@ body {
 .footer-line {
   width: 1px;
   height: 5rem;
-  background: linear-gradient(-45deg, #ee7752, #ffaecd, #69d8ff, #23d5ab);
+  background: linear-gradient(-45deg, #ee7752, #ffad70, #69d8ff, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 }
 
 .text{
   color:#eee;
+}
+
+.text-grad{
+  background: linear-gradient(to right, #ff7f37 0%, #ffad70 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .link {
