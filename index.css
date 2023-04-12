@@ -128,6 +128,10 @@ img{
   transition: all 0.5s;
 }
 
+.event-home-img{
+  object-fit: cover; 
+}
+
 .card:hover img {
   transform: scale(0.97);
   opacity: 0.92;
@@ -156,5 +160,23 @@ img{
   }
   .technology{
     text-align: center;
+  }
+}
+
+@media (min-width: 991px) {
+  .event-home-img {
+    height: 14.7rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .event-home-img {
+    height: 17.6rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .event-home-img {
+    height: 20.5rem;
   }
 }
