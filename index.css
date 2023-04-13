@@ -180,3 +180,9 @@ img{
     height: 20.5rem;
   }
 }
+
+@media (min-width: 1900px) {
+  .event-home-img {
+    height: 18.1rem;
+  }
+}
