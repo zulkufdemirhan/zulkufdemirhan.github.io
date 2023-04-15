@@ -167,17 +167,26 @@ img{
   .event-home-img {
     height: 14.7rem;
   }
+  .tracking-img{
+    height: 14.76rem;
+  }
 }
 
 @media (min-width: 1200px) {
   .event-home-img {
     height: 17.6rem;
   }
+  .tracking-img{
+    height: 17.75rem;
+  }
 }
 
 @media (min-width: 1400px) {
   .event-home-img {
     height: 20.5rem;
+  }
+  .tracking-img{
+    height: 20.67rem;
   }
 }
 
