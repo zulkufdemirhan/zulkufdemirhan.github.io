@@ -132,6 +132,10 @@ img{
   object-fit: cover; 
 }
 
+.tracking-img{
+  object-fit: cover; 
+}
+
 .card:hover img {
   transform: scale(0.97);
   opacity: 0.92;
@@ -186,12 +190,24 @@ img{
     height: 20.5rem;
   }
   .tracking-img{
-    height: 18.32rem;
+    height: 20.7rem;
   }
 }
 
 @media (min-width: 1900px) {
   .event-home-img {
     height: 18.1rem;
+  }
+  .tracking-img{
+    height: 18.32rem;
+  }
+}
+
+@media (min-width: 2100px) {
+  .event-home-img {
+    height: 20.5rem;
+  }
+  .tracking-img{
+    height: 20.65rem;
   }
 }
