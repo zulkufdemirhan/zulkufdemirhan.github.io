@@ -169,28 +169,19 @@ img{
 
 @media (min-width: 991px) {
   .event-home-img {
-    height: 14.7rem;
-  }
-  .tracking-img{
-    height: 14.76rem;
+    height: 11.6rem;
   }
 }
 
 @media (min-width: 1200px) {
   .event-home-img {
-    height: 17.6rem;
-  }
-  .tracking-img{
-    height: 17.75rem;
+    height: 14rem;
   }
 }
 
 @media (min-width: 1400px) {
   .event-home-img {
-    height: 20.5rem;
-  }
-  .tracking-img{
-    height: 20.7rem;
+    height: 16.35rem;
   }
 }
 
@@ -198,17 +189,11 @@ img{
   .event-home-img {
     height: 18.1rem;
   }
-  .tracking-img{
-    height: 18.32rem;
-  }
 }
 
 @media (min-width: 2100px) {
   .event-home-img {
-    height: 20.5rem;
-  }
-  .tracking-img{
-    height: 20.65rem;
+    height: 16.4rem;
   }
 }
 
