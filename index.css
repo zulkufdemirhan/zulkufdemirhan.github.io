@@ -4,13 +4,12 @@ body {
 }
 
 .homepage-section {
-  min-height: 25rem;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  margin-top: 6rem;
 }
 
 .muted {
