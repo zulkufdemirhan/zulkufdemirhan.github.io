@@ -14,11 +14,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const statusText = document.getElementById('status-cycling');
     const statuses = [
         'system_init: optimizing_user_value',
-        'vibe_coding: experimental_delivery',
+        'vibe_coding: strategic_delivery',
         'status: bridging_design_engineering',
         'mode: pragmatic_minimalism',
-        'process: discovery_to_delivery',
-        'context: ist_2025'
+        'ownership: end_to_end_delivery',
+        'context: ist_2026'
     ];
     let statusIndex = 0;
 
