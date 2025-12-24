@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Zülküf Demirhan - Product & UX/UI Designer & Engineer Portfolio">
-    <title>Zülküf Demirhan - Product Designer & UX Engineer</title>
+    <meta name="description" content="Zülküf Demirhan - Staff Product Designer & UX Engineer Portfolio">
+    <title>Zülküf Demirhan | Product Design & UX Engineering</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
 
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -21,21 +21,33 @@
 </head>
 
 <body>
+    <!-- Grain Overlay for Texture -->
+    <div class="grain-overlay"></div>
+
+    <header class="top-nav fade-in">
+        <div class="system-status">
+            <span class="status-dot"></span>
+            <span class="status-text" id="status-cycling">system_init: optimizing_user_value</span>
+        </div>
+        <div class="location-stamp">
+            <span>IST / 2025</span>
+        </div>
+    </header>
 
     <div class="notification" id="notification">
-        <p>✨ Explore my case studies on <a href="https://www.behance.net/zulkufdemirhan" target="_blank"
+        <p>✨ Case studies available on <a href="https://www.behance.net/zulkufdemirhan" target="_blank"
                 rel="noopener noreferrer">Behance</a></p>
     </div>
 
     <!-- Hero Section -->
     <main class="hero">
         <div class="hero__content">
-            <p class="hero__greeting fade-in">Hello, I’m Zülküf</p>
-            <h1 class="hero__title fade-in delay-1">Product Designer <br>& UX Engineer</h1>
+            <p class="hero__greeting fade-in">Zülküf Demirhan</p>
+            <h1 class="hero__title fade-in delay-1">Bridging the gap between <br>requirements and systems.</h1>
 
             <div class="hero__description fade-in delay-2">
-                <p>I build outcome-driven digital solutions from discovery to delivery.</p>
-                <p>Designing for impact, engineering for precision.</p>
+                <p>Staff Product Designer & UX Engineer focused on building <br>pragmatic, scalable solutions for
+                    complex product environments.</p>
             </div>
 
             <div class="social-links fade-in delay-3">
@@ -57,40 +69,45 @@
             </div>
         </div>
 
-        <div class="scroll-indicator fade-in delay-4">
-            <span>Scroll to explore</span>
-            <div class="mouse"></div>
+        <!-- Centered Spike/Spine Indicator -->
+        <div class="scroll-spine fade-in delay-4">
+            <div class="spine-line"></div>
+            <span class="spine-text">Scroll to explore</span>
         </div>
     </main>
 
     <!-- Expertise Section -->
-    <section class="section container scroll-reveal" id="expertise">
+    <section class="section container scroll-reveal" id="strategy">
         <div class="section__header">
-            <h2 class="section__title">End-to-End Product Design</h2>
-            <p class="section__subtitle">I own the full design lifecycle, aligning user needs with business goals.</p>
+            <h2 class="section__title">Strategic Product Design</h2>
+            <p class="section__subtitle">Directing the full design lifecycle by aligning deep user insights with core
+                business objectives and technical feasibility.</p>
         </div>
 
         <div class="grid grid--expertise">
             <div class="card card--minimal">
-                <div class="card__icon"><i class="fa-solid fa-magnifying-glass"></i></div>
-                <h3 class="card__title">Discovery & Research</h3>
-                <p>Problem discovery, benchmarking, user interviews, and usability testing to define clear requirements.
-                </p>
+                <div class="card__icon"><i class="fa-solid fa-microscope"></i></div>
+                <h3 class="card__title">Discovery & Strategy</h3>
+                <p>Moving from ambiguity to clarity through rigorous problem definition, benchmarking, and
+                    cross-functional alignment.</p>
             </div>
             <div class="card card--minimal">
-                <div class="card__icon"><i class="fa-solid fa-diagram-project"></i></div>
-                <h3 class="card__title">Architecture & Flows</h3>
-                <p>Crafting intuitive user flows and information architecture that simplify complex interactions.</p>
+                <div class="card__icon"><i class="fa-solid fa-code-branch"></i></div>
+                <h3 class="card__title">Systems Thinking</h3>
+                <p>Designing scalable information architectures and component libraries that reduce technical debt and
+                    accelerate delivery.</p>
             </div>
             <div class="card card--minimal">
-                <div class="card__icon"><i class="fa-solid fa-pen-nib"></i></div>
-                <h3 class="card__title">UI & Prototyping</h3>
-                <p>High-fidelity wireframes and interactive prototypes built for clarity, alignment, and impact.</p>
+                <div class="card__icon"><i class="fa-solid fa-vial"></i></div>
+                <h3 class="card__title">Validation & Iteration</h3>
+                <p>Closing the loop with usability testing and data-driven refinements, ensuring every interaction
+                    serves a measurable goal.</p>
             </div>
             <div class="card card--minimal">
-                <div class="card__icon"><i class="fa-solid fa-layer-group"></i></div>
-                <h3 class="card__title">Design Systems</h3>
-                <p>Building scalable component libraries (Storybook, Lookbook) for consistency and efficiency.</p>
+                <div class="card__icon"><i class="fa-solid fa-bridge"></i></div>
+                <h3 class="card__title">Engineering Handoff</h3>
+                <p>Delivering production-ready specs with a deep understanding of browser constraints, CSS/SCSS, and
+                    Ruby on Rails environments.</p>
             </div>
         </div>
     </section>
@@ -98,40 +115,36 @@
     <!-- Toolkit & Tech Section -->
     <section class="section container scroll-reveal" id="toolkit">
         <div class="section__header">
-            <h2 class="section__title">Toolkit & Technology</h2>
-            <p class="section__subtitle">A holistic approach to building technically feasible and scalable solutions.
-            </p>
+            <h2 class="section__title">Operational Toolkit</h2>
+            <p class="section__subtitle">Leveraging modern design-engineering workflows to maximize product impact.</p>
         </div>
 
         <div class="grid grid--toolkit">
             <div class="toolkit-group">
-                <h3 class="toolkit-group__title">Design & Prototyping</h3>
+                <h3 class="toolkit-group__title">Design Operations</h3>
                 <ul class="toolkit-list">
-                    <li>Figma</li>
-                    <li>FigJam</li>
-                    <li>Canva</li>
-                    <li>Make</li>
-                    <li>Cursor / Stitch</li>
-                    <li>AI Tools (Bolt, Lovable)</li>
+                    <li>Figma (Advanced Systems)</li>
+                    <li>Design-Code Benchmarking</li>
+                    <li>Prototyping (High-Fidelity)</li>
+                    <li>AI-Accelerated Workflows</li>
                 </ul>
             </div>
             <div class="toolkit-group">
-                <h3 class="toolkit-group__title">Engineering Stack</h3>
+                <h3 class="toolkit-group__title">Engineering Sensibility</h3>
                 <ul class="toolkit-list">
-                    <li>HTML / CSS / SCSS</li>
-                    <li>JavaScript</li>
-                    <li>Git</li>
-                    <li>Ruby on Rails environments</li>
-                    <li>Agile / Scrum</li>
+                    <li>Semantic HTML / Responsive CSS</li>
+                    <li>Git Version Control</li>
+                    <li>RoR Architecture Awareness</li>
+                    <li>Production-Ready Implementation</li>
                 </ul>
             </div>
             <div class="toolkit-group">
-                <h3 class="toolkit-group__title">Collaboration</h3>
+                <h3 class="toolkit-group__title">Product Leadership</h3>
                 <ul class="toolkit-list">
-                    <li>Jira (Sprint Planning)</li>
-                    <li>Confluence (Specs & Docs)</li>
-                    <li>Cross-functional alignment</li>
-                    <li>Outcome-driven mindset</li>
+                    <li>Agile / Scrum Collaboration</li>
+                    <li>Jira / Confluence Documentation</li>
+                    <li>Cross-functional Strategy</li>
+                    <li>Outcome-Driven Iteration</li>
                 </ul>
             </div>
         </div>
@@ -141,14 +154,14 @@
     <section class="section container scroll-reveal section--philosophy">
         <div class="philosophy-content">
             <p class="philosophy-text">
-                "I focus on designing solutions that are <strong>user-centered</strong>, <strong>technically
-                    feasible</strong>, and ready to scale in real-world product environments."
+                "Product design isn't just about how it looks, but how it <strong>integrates</strong> within the broader
+                technical and business ecosystem to drive <strong>lasting impact</strong>."
             </p>
         </div>
     </section>
 
     <footer class="footer">
-        <p>&copy; 2025 Zülküf Demirhan. Built with passion & "vibe coding".</p>
+        <p>&copy; 2025 Zülküf Demirhan. Built with intentionality & craft.</p>
     </footer>
 
     <script src="./index.js"></script>
