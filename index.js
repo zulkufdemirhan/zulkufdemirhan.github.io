@@ -1,6 +1,6 @@
 /**
  * Personal Portfolio
- * Zülküf Demirhan - Staff Product Designer & UX Engineer
+ * Zülküf Demirhan - Product Designer & UX Engineer
  */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const statusText = document.getElementById('status-cycling');
     const statuses = [
         'system_init: optimizing_user_value',
+        'vibe_coding: experimental_delivery',
         'status: bridging_design_engineering',
         'mode: pragmatic_minimalism',
         'process: discovery_to_delivery',
