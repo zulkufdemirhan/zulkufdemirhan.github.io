@@ -1,41 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta name="description" content="Zülküf Demirhan - Product & UX/UI Designer & Engineer Portfolio">
+    <title>Zülküf Demirhan - Product Designer & UX Engineer</title>
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Proza+Libre&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./index.css">
     <link rel="icon" type="image/x-icon" href="./images/icon-tab.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Zulkuf Demirhan - UX Engineer</title>
-  </head>
-  <body class="position-relative">
+</head>
 
+<body>
 
+    <div class="notification" id="notification">
+        <p>✨ Explore my case studies on <a href="https://www.behance.net/zulkufdemirhan" target="_blank"
+                rel="noopener noreferrer">Behance</a></p>
+    </div>
 
-      <div class="alert alert-warning rounded-0 w-100 position-absolute" role="alert" id="notify">
-        📌 Heyy! Welcome! To explore details about my case study works, check out <a href="https://www.behance.net/zulkufdemirhan" target="_blank" class="alert-link text-decoration-underline">my Behance</a> 👈. Thank you!
-      </div>
+    <!-- Hero Section -->
+    <main class="hero">
+        <div class="hero__content">
+            <p class="hero__greeting fade-in">Hello, I’m Zülküf</p>
+            <h1 class="hero__title fade-in delay-1">Product Designer <br>& UX Engineer</h1>
 
-    <section class="container homepage-section">
-      <article class="col-12 col-sm-12 col-md-12 col-lg-6">
-        <p class="muted fs-xsm text-center mb-0">Hello, I’m Zülküf</p>
-        <p class="text-grad fs-md text-center mb-0">UX Engineer</p>
-        <p class="text fs-md text-center">who cares deeply about user experience. Serious passion for UI design and new technologies.</p>
-      </article>
-      <div class="col-12">
-        <div class="d-flex justify-content-center">
-          <a href="https://www.linkedin.com/in/zulkuf-demirhan/" class="social_link" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-          <a href="mailto:z.demirhan95@gmail.com" class="social_link mx-4" title="Email"><i class="fa-regular fa-envelope"></i></a>
-          <a href="https://www.behance.net/zulkufdemirhan" class="social_link" title="Behance - Case Studies"><i class="fa-brands fa-behance"></i></a>
-          <a href="https://github.com/zulkufdemirhan" class="social_link ms-4" title="Github"><i class="fa-brands fa-github"></i></a>
+            <div class="hero__description fade-in delay-2">
+                <p>I build outcome-driven digital solutions from discovery to delivery.</p>
+                <p>Designing for impact, engineering for precision.</p>
+            </div>
+
+            <div class="social-links fade-in delay-3">
+                <a href="https://www.linkedin.com/in/zulkuf-demirhan/" class="social-link" aria-label="LinkedIn"
+                    target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:z.demirhan95@gmail.com" class="social-link" aria-label="Email">
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+                <a href="https://www.behance.net/zulkufdemirhan" class="social-link" aria-label="Behance"
+                    target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-behance"></i>
+                </a>
+                <a href="https://github.com/zulkufdemirhan" class="social-link" aria-label="GitHub" target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
         </div>
-      </div>
+
+        <div class="scroll-indicator fade-in delay-4">
+            <span>Scroll to explore</span>
+            <div class="mouse"></div>
+        </div>
+    </main>
+
+    <!-- Expertise Section -->
+    <section class="section container scroll-reveal" id="expertise">
+        <div class="section__header">
+            <h2 class="section__title">End-to-End Product Design</h2>
+            <p class="section__subtitle">I own the full design lifecycle, aligning user needs with business goals.</p>
+        </div>
+
+        <div class="grid grid--expertise">
+            <div class="card card--minimal">
+                <div class="card__icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <h3 class="card__title">Discovery & Research</h3>
+                <p>Problem discovery, benchmarking, user interviews, and usability testing to define clear requirements.
+                </p>
+            </div>
+            <div class="card card--minimal">
+                <div class="card__icon"><i class="fa-solid fa-diagram-project"></i></div>
+                <h3 class="card__title">Architecture & Flows</h3>
+                <p>Crafting intuitive user flows and information architecture that simplify complex interactions.</p>
+            </div>
+            <div class="card card--minimal">
+                <div class="card__icon"><i class="fa-solid fa-pen-nib"></i></div>
+                <h3 class="card__title">UI & Prototyping</h3>
+                <p>High-fidelity wireframes and interactive prototypes built for clarity, alignment, and impact.</p>
+            </div>
+            <div class="card card--minimal">
+                <div class="card__icon"><i class="fa-solid fa-layer-group"></i></div>
+                <h3 class="card__title">Design Systems</h3>
+                <p>Building scalable component libraries (Storybook, Lookbook) for consistency and efficiency.</p>
+            </div>
+        </div>
     </section>
+
+    <!-- Toolkit & Tech Section -->
+    <section class="section container scroll-reveal" id="toolkit">
+        <div class="section__header">
+            <h2 class="section__title">Toolkit & Technology</h2>
+            <p class="section__subtitle">A holistic approach to building technically feasible and scalable solutions.
+            </p>
+        </div>
+
+        <div class="grid grid--toolkit">
+            <div class="toolkit-group">
+                <h3 class="toolkit-group__title">Design & Prototyping</h3>
+                <ul class="toolkit-list">
+                    <li>Figma</li>
+                    <li>FigJam</li>
+                    <li>Canva</li>
+                    <li>Make</li>
+                    <li>Cursor / Stitch</li>
+                    <li>AI Tools (Bolt, Lovable)</li>
+                </ul>
+            </div>
+            <div class="toolkit-group">
+                <h3 class="toolkit-group__title">Engineering Stack</h3>
+                <ul class="toolkit-list">
+                    <li>HTML / CSS / SCSS</li>
+                    <li>JavaScript</li>
+                    <li>Git</li>
+                    <li>Ruby on Rails environments</li>
+                    <li>Agile / Scrum</li>
+                </ul>
+            </div>
+            <div class="toolkit-group">
+                <h3 class="toolkit-group__title">Collaboration</h3>
+                <ul class="toolkit-list">
+                    <li>Jira (Sprint Planning)</li>
+                    <li>Confluence (Specs & Docs)</li>
+                    <li>Cross-functional alignment</li>
+                    <li>Outcome-driven mindset</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section class="section container scroll-reveal section--philosophy">
+        <div class="philosophy-content">
+            <p class="philosophy-text">
+                "I focus on designing solutions that are <strong>user-centered</strong>, <strong>technically
+                    feasible</strong>, and ready to scale in real-world product environments."
+            </p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Zülküf Demirhan. Built with passion & "vibe coding".</p>
+    </footer>
+
     <script src="./index.js"></script>
-  </body>
+</body>
+
 </html>
