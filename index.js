@@ -15,6 +15,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const statuses = [
         'system_init: optimizing_user_value',
         'vibe_coding: strategic_delivery',
+        'ai_support: accelerated_exploration',
+        'product_mode: lifecycle_ownership',
+        'design_focus: user_centered_value',
         'status: bridging_design_engineering',
         'mode: pragmatic_minimalism',
         'ownership: end_to_end_delivery',
